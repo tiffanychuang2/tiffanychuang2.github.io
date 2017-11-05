@@ -1,0 +1,38 @@
+body {
+	background-attachment: fixed;
+	background-image: url("../images/desktop6.JPG");
+	background-size: cover;
+}
+
+footer {
+	background: white;
+}
+
+h2 {
+	background: transparent;
+}
+
+header {
+	background: white;
+}
+
+section {
+	background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8));
+
+}
+
+ul li {
+	list-style-type: none;
+} 
+
+.menu {
+	font-color: #363636;
+}
+
+.menu:hover {
+	font-color: #074A07;
+}
+
+.menu:visited {
+	text-decoration: none;
+}

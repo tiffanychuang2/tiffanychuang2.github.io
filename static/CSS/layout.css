@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	margin-bottom: 2rem;
+	padding: 1rem;
+	text-align: right;
+	width: 90vw;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	padding-top: 1rem;
+	text-align: center;
+}
+
+header {
+	margin-top: 4rem;
+	padding: 1rem;
+	width: 90vw;
+}
+
+img {
+	max-width: 100%;
+}
+
+section {
+	align-items: center;
+	height: 90vh;
+	padding: 1rem;
+	width: 90vw;
+	margin: 4rem;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.dogs {
+	padding-left: 2rem;
+	padding-top: 2rem;
+	width: 400px;	
+}
+
+.menu-bar {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1rem;
+}
+
+.projects {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.return-home {
+	text-align: right;
+}
+
+.screenshots {
+	height: 150px;
+	width: 300px;
+}
+
+.skills-logos {
+	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	justify-content: space-between;
+	margin: 4rem;
+
+}
+	.skills-logo {
+		margin-left: 33.333%;
+		margin-right: 33.333333%;
+		height: 100px;
+		justify-content: center;
+		width: 100px;
+	}
+
+#last-return {
+	text-align: center;
+}
