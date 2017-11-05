@@ -16,6 +16,7 @@ h1 {
 }
 
 h2 {
+	padding-bottom: 1rem;
 	padding-top: 1rem;
 	text-align: center;
 }
@@ -27,6 +28,8 @@ header {
 }
 
 img {
+	align-items: right;
+	display: flex;
 	max-width: 100%;
 }
 
@@ -62,8 +65,18 @@ section {
 	justify-content: space-between;
 }
 
+	.project:first-child {
+		margin: 2rem;
+	}
+
+	.project:last-child {
+		margin: 2rem;
+	}
+
 .return-home {
-	text-align: right;
+	align-items: flex-end;
+	display: flex;
+	flex-direction: row-reverse;
 }
 
 .screenshots {
@@ -74,6 +87,7 @@ section {
 .skills-logos {
 	display: flex;
 	display: grid;
+	grid-gap: 25px 10px;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
 	justify-content: space-between;
@@ -89,5 +103,6 @@ section {
 	}
 
 #last-return {
-	text-align: center;
+	display: flex;
+	justify-content: center;
 }
