@@ -43,6 +43,8 @@ section {
 
 .about-content {
 	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
 }
 
 .container {
@@ -52,16 +54,23 @@ section {
 }
 
 .dogs {
-	height: 40vh;
+	height: 32vh;
 	padding-left: 2rem;
 	padding-top: 2rem;
-	width: 40vw;	
+	padding-right: 1rem;
+	width: 32vw;	
+}
+
+.links {
+	align-items: flex-end;
+	display: flex;
+	flex-direction: row-reverse;
 }
 
 .menu-bar {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 1rem;
+	padding-top: 2rem;
 }
 
 .projects {
@@ -85,8 +94,8 @@ section {
 }
 
 .screenshots {
-	height: 150px;
-	width: 300px;
+	height: 28vh;
+	width: 28vw;
 }
 
 .skills-logos {
@@ -96,7 +105,7 @@ section {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
 	justify-content: space-between;
-	margin: 4rem;
+	margin: 3rem;
 
 }
 	.skills-logo {
@@ -106,6 +115,11 @@ section {
 		justify-content: center;
 		width: 100px;
 	}
+
+.social-media {
+	height: 30px;
+	width: 30px;
+}
 
 #about-text {
 	padding: 2rem;

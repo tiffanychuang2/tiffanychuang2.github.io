@@ -37,26 +37,22 @@ header {
 	border-radius: .5rem;
 }
 
+p {
+	font-size: 18px;
+}
+
 section {
 	background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8));
 	border-radius: .5rem;
-
+	border-color: #C1C2C4;
 }
 
 ul li {
 	list-style-type: none;
 } 
 
-.menu {
-	font-color: #363636;
-}
-
-.menu:hover {
-	font-color: #074A07;
-}
-
-.menu-bar:visited {
-	text-decoration: none;
+.menu-bar {
+	font-size: 20px;
 }
 
 .screenshots {
