@@ -4,6 +4,16 @@
 	padding: 0;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
+figcaption {
+	display: flex;
+	justify-content: space-between;
+	padding-top: .5rem;
+}
+
 footer {
 	margin-bottom: 2rem;
 	padding: 1rem;
@@ -72,13 +82,18 @@ section {
 	justify-content: space-between;
 	padding-top: 2rem;
 }
-	.menu:first-child {
-		padding-left: 1rem;
-	}
+.menu:first-child {
+	padding-left: 1rem;
+}
 
-	.menu:last-child {
-		padding-right: 1rem;
-	}
+.menu:last-child {
+	padding-right: 1rem;
+}
+
+.project-skills {
+	height: 32px;
+	width: 32px;
+}
 
 .projects {
 	align-items: center;
@@ -86,13 +101,13 @@ section {
 	justify-content: space-between;
 }
 
-	.project:first-child {
-		margin: 2rem;
-	}
+.project:first-child {
+	margin: 2rem;
+}
 
-	.project:last-child {
-		margin: 2rem;
-	}
+.project:last-child {
+	margin: 2rem;
+}
 
 .return-home {
 	align-items: flex-end;
@@ -115,13 +130,13 @@ section {
 	margin: 3rem;
 
 }
-	.skills-logo {
-		margin-left: 33.333%;
-		margin-right: 33.333333%;
-		height: 100px;
-		justify-content: center;
-		width: 100px;
-	}
+.skills-logo {
+	margin-left: 33.333%;
+	margin-right: 33.333333%;
+	height: 100px;
+	justify-content: center;
+	width: 100px;
+}
 
 .social-media {
 	height: 30px;
