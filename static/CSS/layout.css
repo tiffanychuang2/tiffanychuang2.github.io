@@ -41,6 +41,10 @@ section {
 	margin: 4rem;
 }
 
+.about-content {
+	display: flex;
+}
+
 .container {
 	align-items: center;
 	display: flex;
