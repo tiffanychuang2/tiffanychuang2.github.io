@@ -72,6 +72,13 @@ section {
 	justify-content: space-between;
 	padding-top: 2rem;
 }
+	.menu:first-child {
+		padding-left: 1rem;
+	}
+
+	.menu:last-child {
+		padding-right: 1rem;
+	}
 
 .projects {
 	align-items: center;
