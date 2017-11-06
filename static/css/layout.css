@@ -55,6 +55,7 @@ section {
 	display: flex;
 	display: grid;
 	grid-template-columns: 1fr 2fr;
+	line-height: 2rem;
 }
 
 .container {
