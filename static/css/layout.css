@@ -1,3 +1,22 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33%;
+  max-width: 33%;
+  /*padding: 0 4px;*/
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -38,7 +57,10 @@ header {
 ul.icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    height: 0;
     list-style-type: none;
+    padding: 100%
+    width: 100%;
 }
 
 .container {
@@ -49,10 +71,11 @@ ul.icons {
 
 .icon {
     height: 34vh;
-    padding-left: 2rem;
+    padding: 1rem;
+    /*padding-left: 2rem;
     padding-top: 2rem;
     padding-right: 1rem;
-    width: 22vw;
+    width: 22vw;*/
 }
 
 .links {
@@ -145,6 +168,14 @@ ul.icons {
         grid-template-columns: 1fr 1fr;
         list-style-type: none;
     }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
 

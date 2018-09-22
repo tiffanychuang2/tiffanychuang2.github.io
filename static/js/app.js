@@ -8,6 +8,23 @@ for (let i = 0; i < links.length; i++) {
     });
 }
 
+//Geography animation: https://www.w3schools.com/howto/howto_js_animate.asp
+function myMove() {
+  var elem = document.getElementById("myAnimation");
+  var pos = 1;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++;
+      elem.style.bottom = pos + 'px';
+      elem.style.left = pos + 'px';
+    }
+  }
+}
+
+
 // //copyright hover
 // let copyright = document.querySelectorAll('.copyright');
 // for(let i=0; i<copyright.length; i++) {

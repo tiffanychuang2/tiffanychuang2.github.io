@@ -7,6 +7,7 @@ Ideas:
 - Must be responsive
 - hover text (like grocery app)
 - responsive square?
+- hover mask + label
 
 - geography
 - education
@@ -14,7 +15,7 @@ Ideas:
 - hobbies - music, volleyball, dogs
 - passion
 - technology
-- projects
+- projects - scrolling project screenshots
 - resume
 - goals
 *social media/contact me
