@@ -8,6 +8,7 @@ Ideas:
 - hover text (like grocery app)
 - responsive square?
 - hover mask + label
+- fix hover text
 
 - geography
 - education

@@ -1,66 +1,71 @@
 <!DOCTYPE HTML>
 
-<!-- <html xmlns:th="http://www.thymeleaf.org"> -->
-
 <head>
     <title>Tiffany Chuang</title>
     <link rel="stylesheet" type="text/css" href="./static/css/layout.css" />
     <link rel="stylesheet" type="text/css" href="./static/css/styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 </head>
 
-<body>
-    <div class="container">
-        <header id="header">
-            <h1>Tiffany Chuang</h1>
-            <!-- <nav>
-                <ul class="menu-bar">
-                    <li class="menu"><a href="#about-me">About Me</a></li>
-                    <li class="menu"><a href="#skills-tools">Skills and Tools</a></li>
-                    <li class="menu"><a href="#projects">Projects</a></li>
-                    <li class="menu"><a href="#contact-me">Contact Me</a></li>
-                </ul>
-            </nav> -->
-        </header>
+<div class="container">
+    <header id="header">
+      <h1>Tiffany Chuang</h1>
+    </header>
 
-        <section class="icons">
-            <div class="grid">
-                <div class="column">
-                  <a class="home-links" href="./geography.html"><img class="icon" id="geography-icon" src="./static/images/globe-flat.png" />
-                    <!-- <figcaption>GEOGRAPHY</figcaption> -->
-                  </a>
-                  <a class="home-links" href="./education.html"><img class="icon" id="education-icon" src="./static/images/education.png" />
-                    <!-- <figcaption>EDUCATION</figcaption> -->
-                  </a>
-                  <a class="home-links" href="./goals.html"><img class="icon" id="goals-icon" src="./static/images/goals-icon.png" />
-                    <!-- <figcaption>GOALS</figcaption> -->
-                  </a>
-                </div>
-              <div class="column">
-                <a class="home-links" href="./projects.html"><img class="icon" id="projects-icon" src="./static/images/lightbulb.png" />
-                    <!-- <figcaption>PROJECTS</figcaption> -->
-                </a>
-                <a class="home-links" href="./Resume.pdf"><img class="icon" id="resume-icon" src="./static/images/Resumes.png" />
-                    <!-- a href="/images/myw3schoolsimage.jpg" download -->
-                    <!-- <figcaption>RESUME</figcaption> -->
-                </a>
-                <a class="home-links" href="./skills.html"><img class="icon" id="skills-icon" src="./static/images/tool-blue-icon.png" />
-                    <!-- <figcaption>SKILLS</figcaption> -->
+    <section class="content">
+  				<!--<h2 id="pick-recipes">Pick Your Recipe(s):</h2>-->
+  					<div class="polaroids">
+              <!--each polaroid-->
+              <div class="one-polaroid" id="p1">
+  							<a class="p-title">Polaroid One
+  								<img class="polaroid-image"/>
+  								<div class="mask">
+									<!-- <h3 class="recipe-name" th:text="${i.name}"></h3> -->
+  									<div class="name-on-hover">Polaroid One</div>
+                  </div>
                 </a>
               </div>
-              <div class="column">
-                <a class="home-links" href="./tech.html"><img class="icon" id="tech-icon" src="./static/images/new-Tech-icon.png" />
-                    <!-- <figcaption>TECH</figcaption> -->
-                </a>
-                <a class="home-links" href="./what-i-love.html"><img class="icon" id="love-icon" src="./static/images/love.png" />
-                    <!-- <figcaption>WHAT-I-LOVE</figcaption> -->
-                </a>
-                <a class="home-links" href="./career.html"><img class="icon" id="career-icon" src="./static/images/connect.png" />
-                    <!-- <figcaption>CAREER</figcaption> -->
+
+              <div class="one-polaroid" id="p2">
+  							<a class="p-title">Polaroid Two
+  								<img class="polaroid-image"/>
+  								<div class="mask">
+									<!-- <h3 class="recipe-name" th:text="${i.name}"></h3> -->
+  									<div class="name-on-hover">Polaroid Two</div>
+                  </div>
                 </a>
               </div>
-            </div>
-          </section>
+
+  						<div class="one-polaroid" id="p3">
+  							<a class="p-title">Resume
+  								<img class="polaroid-image"/>
+  								<div class="mask">
+									<!-- <h3 class="recipe-name" th:text="${i.name}"></h3> -->
+  									<div class="name-on-hover">Resume</div>
+  								</div>
+  							</a>
+  						</div>
+  					</div>
+    </section>
+
+    <!-- <div class="content">
+				<h2 id="pick-recipes">Pick Your Recipe(s):</h2>
+
+					<div class="recipes">
+						<div class="one-recipe" th:each="i: ${recipes}">
+							<a class="recipe-on-home" th:href="@{/recipe(id=${i.id})}">
+								<img class="recipe-image" th:src="${i.imageUrl}"/>
+								<div class="mask">
+									<!-- <h3 class="recipe-name" th:text="${i.name}"></h3>
+									<div class="recipe-name" th:text="${i.name}"></div>
+								</div>
+							</a>
+						</div>
+					</div>
+			</div> -->
+
+
+<body>
 
         <footer id="contact-me">
             <p class="return-home" id="last-return"><a href="#header">Back to the top </a></p>
@@ -78,7 +83,7 @@
             </ul>
             <small id="copyright">Handmade by Me &copy; 2017</small>
         </footer>
-    </div>
+</div>
     <!-- .container -->
     <script src="./static/js/app.js"></script>
 </body>
