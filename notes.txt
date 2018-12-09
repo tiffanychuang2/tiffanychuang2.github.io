@@ -9,6 +9,10 @@ Ideas:
 - responsive square?
 - hover mask + label
 - fix hover text
+- contact me page instead of download resume?
+    - form submission
+    - pop up confirmation
+    - social media
 
 - geography
 - education
