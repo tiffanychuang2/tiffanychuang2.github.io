@@ -13,6 +13,7 @@ Ideas:
     - form submission
     - pop up confirmation
     - social media
+- typewriter effect: https://www.w3schools.com/howto/howto_js_typewriter.asp
 
 - geography
 - education
@@ -23,4 +24,12 @@ Ideas:
 - projects - scrolling project screenshots
 - resume
 - goals
+
+
 *social media/contact me
+- button -> email
+- dogs' social media
+- linked in
+- github
+
+

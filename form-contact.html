@@ -16,18 +16,33 @@
     <section class="content">
         <div class="postcard">
             <div class="left-side">
-                <h3>I'd love to hear from you</h3>
-                    <p>Here are some more words</p>
-                <!-- <button id="email">Send me an email.</button> -->
-                <a id="email-button" href="mailto:tiffany.chuang2@gmail.com" target="_blank">Send me an email</a>
+                <form method="POST">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="fname">First Name</label>
+                        <br>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="lname">Last Name</label>
+                        <br>
+                        <select id="dropdown" name="dropdown">
+                            <option value="option1">option1</option>
+                            <option value="option2">option2</option>
+                            <option value="option3">option3</option>
+                        </select>
+                    <label for="dropdown">Dropdown</label>
+                        <br>
+                    <!-- <label for="subject">Subject</label> -->
+                    <textarea id="subject" name="subject" placeholder="Comments" style="height:170px"></textarea>
+                        <br>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
             <div class="right-side">
                 <p>Connect with me:</p>
                 <ul class="links">
-                        <!-- <li class="list-item"> 
+                        <li class="list-item"> 
                             <a class="social" href="mailto:tiffany.chuang2@gmail.com" target="_blank"><img class="social-media" src="./static/images/mailicon.png" alt="Email Me" /></a>
                             <a class="social" href="mailto:tiffany.chuang2@gmail.com" target="_blank">tiffany.chuang2@gmail.com</a>
-                        </li> -->
+                        </li>
                         <li class="list-item"> 
                             <a class="social" href="http://www.github.com/tiffanychuang2" target="_blank"><img class="social-media" src="./static/images/github.png" alt="GitHub" /></a>
                             <a class="social" href="http://www.github.com/tiffanychuang2" target="_blank">github.com/tiffanychuang2</a>
@@ -35,10 +50,6 @@
                         <li class="list-item"> 
                             <a class="social" href="http://www.linkedin.com/in/tiffanychuang2" target="_blank"><img class="social-media" src="./static/images/linkedinicon.png" alt="LinkedIn" /></a>
                             <a class="social" href="http://www.linkedin.com/in/tiffanychuang2" target="_blank">linkedin.com/in/tiffanychuang2/</a>
-                        </li>
-                        <li class="list-item"> 
-                            <a class="social" href="http://www.instagram.com/chewyandthebeef" target="_blank"><img class="social-media" src="./static/images/instagramicon.png" alt="LinkedIn" /></a>
-                            <a class="social" href="http://www.instagram.com/chewyandthebeef" target="_blank">Follow my dogs on Instagram!</a>
                         </li>
                     </ul>
             </div>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cookie|Covered+By+Your+Grace|Dancing+Script:400,700|Permanent+Marker|Petit+Formal+Script|Rochester|Shadows+Into+Light');
 
 *{
-
+  font-family: 'Dancing Script', cursive;
 }
 
 a.p-title:active,
@@ -39,6 +39,11 @@ h3,
 #copyright {
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
+}
+
+p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 16px;
 }
 
 /* mask */
