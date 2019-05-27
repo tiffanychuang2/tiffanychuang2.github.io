@@ -17,18 +17,15 @@ h1 {
     font-size: 82px;
 }
 
-h2 {
+h2,
+nav,
+#copyright {
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 li {
     list-style-type: none;
-}
-
-nav {
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
 }
 
 #about-me {

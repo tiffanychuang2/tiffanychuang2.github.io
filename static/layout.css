@@ -2,6 +2,7 @@ a:active,
 a:hover,
 a:link,
 a:visited {
+    color: white;
     text-decoration: none;
 }
 
@@ -31,6 +32,9 @@ h2 {
 } 
 
 li {
+    grid-row-end: 2;
+    grid-row-start: 1;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -69,13 +73,54 @@ section {
     text-shadow: 2px 2px 8px #000000
 }
 
+.links {
+    display: grid;
+    grid-row-end: 3;
+    grid-row-start: 2;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+}
+
+#contact-me {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#copyright {
+    
+}
+
+#email {
+    display: grid;
+    grid-column-end: 2;
+    grid-column-start: 1;
+    grid-row-end; 3;
+    grid-row-start: 2;
+    justify-content: end;
+}
+
 #intro {
     display: grid;
     grid-template-columns: 1fr 1.25fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.links {
-    margin: 0;
-    padding: 0;
+#linked-in {
+    display: grid;
+    grid-column-end: 3;
+    grid-column-start: 2;
+    grid-row-end; 3;
+    grid-row-start: 2;
+    justify-content: center;
+}
+
+#github {
+    display: grid;
+    grid-column-end: 4;
+    grid-column-start: 3;
+    grid-row-end; 3;
+    grid-row-start: 2;
+    justify-content: start;
 }
