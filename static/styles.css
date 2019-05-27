@@ -1,3 +1,48 @@
-ul {
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Londrina+Sketch|Parisienne|Roboto+Condensed&display=swap');
+
+body {
+    background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), 
+                        url("./images/pineapple-woods-edit.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    /* font-family: 'Parisienne', cursive; */
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 82px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+li {
     list-style-type: none;
 }
+
+nav {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#about-me {
+    background-color: white;
+}
+
+#experience {
+    background-color: grey;
+}
+
+#contact-me {
+    background-image: url("./images/coffee-meet-me-edit.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
