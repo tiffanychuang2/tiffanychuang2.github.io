@@ -32,6 +32,11 @@ li {
     background-color: white;
 }
 
+#about-par,
+#about-title {
+    color: black;
+}
+
 #experience {
     background-color: grey;
 }

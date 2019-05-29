@@ -34,7 +34,6 @@ h2 {
 li {
     grid-row-end: 2;
     grid-row-start: 1;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -62,6 +61,12 @@ section {
     width: 100vw;
 }
 
+.contacts {
+    display: grid;
+    grid-row-end: 3;
+    grid-row-start: 2;
+}
+
 .heading {
     display: grid;
     grid-column-end: 3;
@@ -75,12 +80,17 @@ section {
 
 .links {
     display: grid;
-    grid-row-end: 3;
-    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-row-start: 1;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     margin: 0;
     padding: 0;
+}
+
+#about-par,
+#experience-par {
+    word-wrap: normal;
 }
 
 #contact-me {
@@ -89,7 +99,11 @@ section {
 }
 
 #copyright {
-    
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
 }
 
 #email {
