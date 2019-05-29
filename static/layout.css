@@ -49,18 +49,6 @@ nav {
     text-shadow: 2px 2px 8px #000000
 }
 
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-section {
-    height: 100vh;
-    margin: 0;
-    width: 100vw;
-}
-
 .contacts {
     display: grid;
     grid-row-end: 3;
@@ -78,6 +66,12 @@ section {
     text-shadow: 2px 2px 8px #000000
 }
 
+.home-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .links {
     display: grid;
     grid-row-end: 2;
@@ -88,9 +82,22 @@ section {
     padding: 0;
 }
 
-#about-par,
-#experience-par {
+.tech-skills {
+    column-count: 2;
+    margin: 0;
+}
+
+
+#about-par {
+    margin: 0;
     word-wrap: normal;
+}
+
+#contact-me,
+#intro {
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
 }
 
 #contact-me {
