@@ -1,9 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Londrina+Sketch|Parisienne|Roboto+Condensed&display=swap');
 
+* {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a:active,
+a:hover,
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
 body {
+    background-attachment: fixed;
     background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), 
                         url("./images/pineapple-woods-edit.jpeg");
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
@@ -13,15 +26,8 @@ body {
 h1 {
     color: white;
     /* font-family: 'Parisienne', cursive; */
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Fredericka the Great', sans-serif;
     font-size: 82px;
-}
-
-h2,
-nav,
-#copyright {
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
 }
 
 li {
@@ -29,6 +35,21 @@ li {
 }
 
 #about-me {
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)),  
+                    url("./images/pineapple-grass.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#about-me,
+#experience {
+    font-size: 6vh;
+}
+
+#about-me-content {
     background-color: white;
 }
 
@@ -37,14 +58,34 @@ li {
     color: black;
 }
 
-#experience {
-    background-color: grey;
+#contact-icons {
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)),  
+                    url("./images/coffee-patio-table-crop.jpeg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
 }
 
 #contact-me {
-    background-image: url("./images/coffee-meet-me-edit.jpeg");
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)),  
+                    url("./images/coffee-meet-me.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
 }
 
+#experience {
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)),  
+                    url("./images/pineapple-table.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#experience-content {
+    background-color: grey;
+}

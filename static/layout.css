@@ -1,11 +1,3 @@
-a:active,
-a:hover,
-a:link,
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-
 body {
     margin: 0;
 }
@@ -31,13 +23,6 @@ h2 {
     margin: 0;
 } 
 
-li {
-    grid-row-end: 2;
-    grid-row-start: 1;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 nav {
     align-items: center;
     display: grid;
@@ -47,12 +32,6 @@ nav {
     grid-row-end: 6;
     grid-row-start: 5;
     text-shadow: 2px 2px 8px #000000
-}
-
-.contacts {
-    display: grid;
-    grid-row-end: 3;
-    grid-row-start: 2;
 }
 
 .heading {
@@ -72,14 +51,37 @@ nav {
     justify-content: center;
 }
 
-.links {
-    display: grid;
+.home-nav li {
     grid-row-end: 2;
     grid-row-start: 1;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.links {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
     margin: 0;
     padding: 0;
+}
+
+.links li {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.social-media {
+    height: 5vh;
+    margin-left: 12vw;
+    margin-right: 15px;
+    width: auto;
 }
 
 .tech-skills {
@@ -87,22 +89,47 @@ nav {
     margin: 0;
 }
 
+#about-me,
+#experience {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#about-me,
+#contact-me,
+#experience {
+    height: 35vh;
+}
+
+#about-me-content,
+#experience-content {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+#about-me-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 #about-par {
-    margin: 0;
+    grid-column-end: 3;
+    grid-column-start: 2;
+    margin-right: 30px;
+    text-align: right;
     word-wrap: normal;
 }
 
-#contact-me,
+#about-title {
+    grid-column-end: 3;
+    grid-column-start: 2;
+}
+
 #intro {
     height: 100vh;
     margin: 0;
     width: 100vw;
-}
-
-#contact-me {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
 }
 
 #copyright {
@@ -113,35 +140,25 @@ nav {
     padding: 20px;
 }
 
-#email {
-    display: grid;
-    grid-column-end: 2;
-    grid-column-start: 1;
-    grid-row-end; 3;
-    grid-row-start: 2;
-    justify-content: end;
+#experience-par,
+.tech-skills {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#first {
+    background-color: yellow;
+}
+
+#headshot {
+    height: auto;
+    justify-content: center;
+    margin-left: 30px;
+    width: 38vw;
 }
 
 #intro {
     display: grid;
     grid-template-columns: 1fr 1.25fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-}
-
-#linked-in {
-    display: grid;
-    grid-column-end: 3;
-    grid-column-start: 2;
-    grid-row-end; 3;
-    grid-row-start: 2;
-    justify-content: center;
-}
-
-#github {
-    display: grid;
-    grid-column-end: 4;
-    grid-column-start: 3;
-    grid-row-end; 3;
-    grid-row-start: 2;
-    justify-content: start;
 }
