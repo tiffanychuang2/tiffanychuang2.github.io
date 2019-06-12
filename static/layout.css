@@ -23,6 +23,10 @@ h2 {
     margin: 0;
 } 
 
+h3 {
+    margin: 0;
+}
+
 nav {
     align-items: center;
     display: grid;
@@ -86,6 +90,8 @@ nav {
 
 .tech-skills {
     column-count: 2;
+    grid-row-end: 3;
+    grid-row-start: 2;
     margin: 0;
 }
 
@@ -110,27 +116,32 @@ nav {
 
 #about-me-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr .5fr 2.5fr .25fr .25fr .25fr .25fr;
+    grid-template-rows: 8fr 1fr;
+    padding-right: 40px;
+}
+
+#about-menu {
+    grid-column-end: 9;
+    grid-column-start: 8;
+    grid-row-end: 3;
+    grid-row-start: 2;
+    align-content: end;
 }
 
 #about-par {
-    grid-column-end: 3;
-    grid-column-start: 2;
-    margin-right: 30px;
+    grid-column-end: 9;
+    grid-column-start: 4;
+    grid-row-end: 3;
+    grid-row-start: 1;
     text-align: right;
     word-wrap: normal;
 }
 
-#about-title {
+/* #about-title {
     grid-column-end: 3;
     grid-column-start: 2;
-}
-
-#intro {
-    height: 100vh;
-    margin: 0;
-    width: 100vw;
-}
+} */
 
 #copyright {
     align-items: flex-end;
@@ -140,10 +151,33 @@ nav {
     padding: 20px;
 }
 
+#experience-content {
+    display: grid;
+    grid-template-columns: 1.5fr 4fr .2fr .2fr .2fr .2fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    padding-right: 40px;
+}
+
+#experience-menu {
+    grid-column-end: 8;
+    grid-column-start: 7;
+    grid-row-end: 4;
+    grid-row-start: 3;
+}
+
+#experience-par {
+    grid-column-start: 2;
+    margin-top: 0;
+    grid-row-end: 2;
+    grid-row-start: 1;
+}
+
 #experience-par,
 .tech-skills {
-    margin-left: 25%;
-    margin-right: 25%;
+    grid-column-end: 3;
+    grid-column-start: 2;
+    /* margin-left: 25%;
+    margin-right: 25%; */
 }
 
 #first {
@@ -151,14 +185,20 @@ nav {
 }
 
 #headshot {
-    height: auto;
-    justify-content: center;
-    margin-left: 30px;
-    width: 38vw;
+    grid-column-end: 3;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-row-start: 1;
+    height: 28vw;
+    /* margin-left: 30px; */
+    width: auto;
 }
 
 #intro {
     display: grid;
     grid-template-columns: 1fr 1.25fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
 }

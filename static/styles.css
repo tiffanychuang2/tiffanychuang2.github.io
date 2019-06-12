@@ -16,18 +16,36 @@ a:visited {
 body {
     background-attachment: fixed;
     background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), 
-                        url("./images/pineapple-woods-edit.jpeg");
+                    url("./images/pineapple-woods-edit.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
     width: 100%;
 }
 
-h1 {
+h3 {
+    color: black;
+    background-color: white;
+    border: double;
+    font-family: 'Parisienne', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 14px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 14px;
+}
+
+strong {
     color: white;
-    /* font-family: 'Parisienne', cursive; */
-    font-family: 'Fredericka the Great', sans-serif;
-    font-size: 82px;
+    font-family: 'Parisienne', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Fredericka the Great', sans-serif !important; */
+    font-size: 98px;
+}
+
+#about-border,
+#experience-border {
+    background-color: white;
+    opacity: .75;
+    padding: 2px;
 }
 
 li {
@@ -37,7 +55,7 @@ li {
 #about-me {
     background-attachment: fixed;
     background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)),  
-                    url("./images/pineapple-grass.jpg");
+                    url("./images/pineapple-table.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,6 +69,11 @@ li {
 
 #about-me-content {
     background-color: white;
+}
+
+#about-par {
+    display: flex;
+    flex-direction: column;
 }
 
 #about-par,
@@ -71,15 +94,16 @@ li {
 #contact-me {
     background-attachment: fixed;
     background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)),  
-                    url("./images/coffee-meet-me.jpg");
+                    url("./images/coffee-meet-me-edit.jpeg");
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 #experience {
     background-attachment: fixed;
     background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)),  
-                    url("./images/pineapple-table.jpg");
+                    url("./images/pineapple-grass.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,4 +112,10 @@ li {
 
 #experience-content {
     background-color: grey;
+}
+
+#about-menu,
+#experience-menu {
+    height: 30px;
+    width: auto;
 }

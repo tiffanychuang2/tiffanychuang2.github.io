@@ -32,4 +32,12 @@ Ideas:
 - linked in
 - github
 
+Experience: tech/skills/professional
+
+Born and raised in Texas, I graduated from the University of North Texas with a degree in Hospitality Management.  After 7 years in the Hospitality Industry, I made the decision to pursue a career change.  In September 2017, I joined a 12 week, full-stack, Java development bootcamp called WeCanCodeIT in Columbus, Ohio, to begin that transition.  A week after bootcamp, I was offered my first job as an application developer.  At my current position, I spend my days learning new skills, and utilizing my bootcamp knowledge to customize a third party application for another business area.  I may be new to the industry, but I would love to someday have the opportunity to ______________.
+
+About Me: hobbies
+
+Dogs, travel, food, music.
+
 
