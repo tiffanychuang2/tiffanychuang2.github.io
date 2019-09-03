@@ -55,7 +55,6 @@ ul {
     grid-row-start: 2;
     justify-items: right;
     text-align: right;
-    text-shadow: 2px 2px 8px #000000
 }
 
 .home-nav {
@@ -99,7 +98,7 @@ ul {
 }
 
 .tech-skills {
-    column-count: 2;
+    column-count: 4;
     grid-row-end: 3;
     grid-row-start: 2;
     margin: 0;

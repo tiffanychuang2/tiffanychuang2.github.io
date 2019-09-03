@@ -11,6 +11,7 @@ a:link,
 a:visited {
     color: white;
     text-decoration: none;
+    text-shadow: 2px 2px 8px rgb(73, 80, 56);
 }
 
 body {
@@ -25,6 +26,10 @@ body {
     width: 100%;
 }
 
+/* h2 {
+    font-size: 1.75rem;
+} */
+
 h3 {
     color: black;
     background-color: white;
@@ -36,6 +41,10 @@ h3 {
     padding-top: 14px;
 }
 
+li {
+    list-style-type: none;
+}
+
 strong {
     color: white;
     font-family: 'Parisienne', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -43,15 +52,19 @@ strong {
     font-size: 98px;
 }
 
+.heading {
+    text-shadow: 2px 2px 8px rgb(73, 80, 56);
+}
+
+/* .home-nav li {
+    font-size: 1.5rem;
+} */
+
 #about-border,
 #experience-border {
     background-color: white;
     opacity: .75;
     padding: 2px;
-}
-
-li {
-    list-style-type: none;
 }
 
 #about-me {
@@ -70,7 +83,8 @@ li {
 }
 
 #about-me-content {
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
+    background-color: rgb(73, 80, 56);
 }
 
 #about-par {
@@ -84,6 +98,7 @@ li {
 #contact-icons {
     background-attachment: fixed;
     background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)),  
+                    /* url("./images/smokey.jpg"); */
                     url("./images/spoopy.jpg");
     /* background-color: tan; */
     background-position: bottom;
@@ -112,7 +127,8 @@ li {
 }
 
 #experience-content {
-    background-color: darkslategrey;
+    /* background-color: darkslategrey; */
+    background-color: rgb(73, 80, 56);
 }
 
 #about-menu,
