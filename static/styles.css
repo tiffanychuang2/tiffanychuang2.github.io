@@ -16,7 +16,9 @@ a:visited {
 body {
     background-attachment: fixed;
     background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), 
-                    url("./images/pineapple-woods-edit.jpeg");
+                    /* url("./images/pineapple-woods-edit.jpeg"); */
+                    url("./images/yellowstone-trees-smoke.jpeg");
+
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
@@ -55,7 +57,7 @@ li {
 #about-me {
     background-attachment: fixed;
     background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)),  
-                    url("./images/pineapple-table.jpg");
+                    url("./images/snow-trees.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,15 +70,13 @@ li {
 }
 
 #about-me-content {
-    background-color: white;
+    background-color: darkolivegreen;
 }
 
 #about-par {
-    display: flex;
-    flex-direction: column;
+    color: white;
 }
 
-#about-par,
 #about-title {
     color: black;
 }
@@ -84,26 +84,27 @@ li {
 #contact-icons {
     background-attachment: fixed;
     background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)),  
-                    url("./images/coffee-patio-table-crop.jpeg");
+                    url("./images/spoopy.jpg");
+    /* background-color: tan; */
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
 }
 
-#contact-me {
+/* #contact-me {
     background-attachment: fixed;
     background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)),  
                     url("./images/coffee-meet-me-edit.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 #experience {
     background-attachment: fixed;
     background-image: linear-gradient(rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)),  
-                    url("./images/pineapple-grass.jpg");
+                    url("./images/snow-trees.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,7 +112,7 @@ li {
 }
 
 #experience-content {
-    background-color: grey;
+    background-color: darkslategrey;
 }
 
 #about-menu,
